@@ -174,7 +174,7 @@ class SegmentationRasterFile(LabelStore):
         np.ndarray of zeros.
 
         Args:
-             window: A window given as a Box object or None.
+             window: Either None or a window given as a Box object.
 
         Returns:
              np.ndarray
