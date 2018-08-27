@@ -1,0 +1,1188 @@
+{
+    "train_scenes": [
+        {
+            "id": "2_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_2_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_2_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "2_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_2_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_2_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "3_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_3_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_3_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "3_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_3_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_3_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "4_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_4_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_4_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "4_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_4_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_4_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "4_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_4_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_4_12_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "5_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_5_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_5_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "5_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_5_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_5_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "5_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_5_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_5_12_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_6_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_6_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_6_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_6_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6_7",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_6_7_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_6_7_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6_9",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_6_9_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_6_9_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_10",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_10_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_10_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_11",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_11_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_11_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_12_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_7",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_7_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_7_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_8",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_8_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_8_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "7_9",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_7_9_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants/top_potsdam_7_9_label.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "test_scenes": [
+        {
+            "id": "2_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_2_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants_no_Boundary/top_potsdam_2_12_label_noBoundary.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "3_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_3_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants_no_Boundary/top_potsdam_3_12_label_noBoundary.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "6_12",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/4_Ortho_RGBIR/top_potsdam_6_12_RGBIR.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "image_file": {
+                            "uri": "{raw}/5_Labels_for_participants_no_Boundary/top_potsdam_6_12_label_noBoundary.tif"
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#ffff00",
+                            "raster_vision_class": 1
+                        },
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ff0000",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#ffffff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#000000",
+                            "raster_vision_class": 2
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "machine_learning": {
+        "task": "SEMANTIC_SEGMENTATION",
+        "backend": "TF_DEEPLAB",
+        "class_items": [
+            {
+                "id": 1,
+                "name": "car",
+                "color": "#ffff00"
+            },
+            {
+                "id": 2,
+                "name": "not car",
+                "color": "#0000ff"
+            }
+        ]
+    },
+    "make_training_chips_options": {
+        "segmentation_options": {
+            "empty_survival_probability": 0.33,
+            "number_of_chips": 1000,
+            "debug_chip_probability": 0.05,
+            "minor_axis_backoff": 13
+        }
+    },
+    "train_options": {
+        "pretrained_model_uri": "{rv_root}/deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz",
+        "backend_config_uri": "{rv_root}/potsdam.config",
+        "sync_interval": 600,
+        "segmentation_options": {
+        }
+    },
+    "predict_options": {
+        "segmentation_options": {
+        }
+    },
+    "eval_options": {
+    },
+    "debug": false,
+    "chip_size": 96,
+    "raster_transformer": {
+        "channel_order": [0, 1, 2]
+    },
+    "local_uri_map": {
+        "rv_root": "/opt/data/potsdam",
+        "raw": "/opt/data"
+    },
+    "remote_uri_map": {
+        "rv_root": "s3://raster-vision-mcclain/potsdam",
+        "raw": "s3://raster-vision-raw-data/isprs-potsdam"
+    },
+    "raw_dataset_key": "potsdam",
+    "dataset_key": "full",
+    "model_key": "deeplab",
+    "prediction_key": "test-set",
+    "eval_key": "default"
+}
