@@ -4,7 +4,7 @@ import numpy as np
 from rastervision.core.raster_source import RasterSource
 from rastervision.core.box import Box
 from rastervision.label_stores.segmentation_raster_file import (
-    SegmentationRasterFile)
+    SegmentationInputRasterFile)
 
 
 class TestingRasterSource(RasterSource):
@@ -48,35 +48,13 @@ class TestingRasterSource(RasterSource):
 
 
 class TestSegmentationRasterFile(unittest.TestCase):
-    def test_clear(self):
-        label_store = SegmentationRasterFile(TestingRasterSource(), None, None)
-        extent = label_store.source.get_extent()
-        label_store.clear()
-        data = label_store.get_labels(extent)
-        self.assertEqual(data.sum(), 0)
-
-    def test_set_labels(self):
-        raster_source = TestingRasterSource(zeros=True)
-        label_store = SegmentationRasterFile(
-            source=raster_source,
-            sink=None,
-            class_map=None,
-            raster_class_map={'#000001': 1})
-        label_store.set_labels(raster_source)
-        extent = label_store.source.get_extent()
-        rs_data = raster_source._get_chip(extent)
-        ls_data = (label_store.get_labels(extent) == 1)
-        self.assertEqual(rs_data.sum(), ls_data.sum())
-
     def test_interesting_subwindow(self):
         zeros = np.zeros((11, 11, 3), dtype=np.uint8)
         ones = np.ones((10, 10, 3), dtype=np.uint8)
         zeros[1:, 1:, :] = ones
         raster_source = TestingRasterSource(data=zeros)
-        label_store = SegmentationRasterFile(
+        label_store = SegmentationInputRasterFile(
             source=raster_source,
-            sink=None,
-            class_map=None,
             raster_class_map={'#010101': 1})
         extent = Box(0, 0, 10, 10)
         window = label_store.interesting_subwindow(extent, 2, 0)
