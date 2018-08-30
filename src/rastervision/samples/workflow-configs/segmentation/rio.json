@@ -1,0 +1,141 @@
+{
+    "train_scenes": [
+        {
+            "id": "rio-training",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022223123.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022223130.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022223131.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022223132.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022232020.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022232021.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022232022.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022232023.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223130.tif",
+				"{raw}/Labels/label-013022223123.tif",
+				"{raw}/Labels/label-013022223130.tif",
+				"{raw}/Labels/label-013022223131.tif",
+				"{raw}/Labels/label-013022223132.tif",
+				"{raw}/Labels/label-013022232020.tif",
+				"{raw}/Labels/label-013022232021.tif",
+				"{raw}/Labels/label-013022232022.tif",
+				"{raw}/Labels/label-013022232023.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "test_scenes": [
+        {
+            "id": "rio-validation",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022223133.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022232200.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223133.tif",
+                                "{raw}/Labels/label-013022232200.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "machine_learning": {
+        "task": "SEMANTIC_SEGMENTATION",
+        "backend": "TF_DEEPLAB",
+        "class_items": [
+            {
+                "id": 2,
+                "name": "building",
+                "color": "#0000ff"
+            },
+            {
+                "id": 1,
+                "name": "~building",
+                "color": "#00ff00"
+            }
+        ]
+    },
+    "make_training_chips_options": {
+        "segmentation_options": {
+            "empty_survival_probability": 0.05,
+            "number_of_chips": 1000,
+            "debug_chip_probability": 0.033,
+	    "super_window_factor": 1,
+            "minor_axis_backoff": 0
+        }
+    },
+    "train_options": {
+        "pretrained_model_uri": "{rv_root}/deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz",
+        "backend_config_uri": "{rv_root}/rio.config",
+        "sync_interval": 600,
+        "segmentation_options": {
+        }
+    },
+    "predict_options": {
+        "segmentation_options": {
+        }
+    },
+    "eval_options": {
+    },
+    "debug": false,
+    "chip_size": 96,
+    "raster_transformer": {
+        "channel_order": [0, 1, 2]
+    },
+    "local_uri_map": {
+        "rv_root": "/opt/data/rio",
+        "raw": "/opt/data/rio"
+    },
+    "remote_uri_map": {
+        "rv_root": "s3://raster-vision-mcclain/rio",
+        "raw": "s3://raster-vision-spacenet/AOI_1_Rio"
+    },
+    "raw_dataset_key": "rio",
+    "dataset_key": "full",
+    "model_key": "deeplab",
+    "prediction_key": "test",
+    "eval_key": "default"
+}
