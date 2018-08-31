@@ -1,17 +1,227 @@
 {
     "train_scenes": [
         {
-            "id": "rio-training",
+            "id": "013022223123",
             "raster_source": {
                 "geotiff_files": {
                     "uris": [
-                        "{raw}/srcData/rasterData/3-Band/013022223123.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022223130.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022223131.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022223132.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022232020.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022232021.tif",
-                        "{raw}/srcData/rasterData/3-Band/013022232022.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022223123.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223123.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223130",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022223130.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223130.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223131",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022223131.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223131.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223132",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022223132.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223132.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223020",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022232020.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022232020.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223021",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022232021.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022232021.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223022",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
+                        "{raw}/srcData/rasterData/3-Band/013022232022.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022232022.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "013022223023",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
                         "{raw}/srcData/rasterData/3-Band/013022232023.tif"
                     ]
                 }
@@ -21,15 +231,7 @@
                     "source": {
                         "geotiff_files": {
                             "uris": [
-                                "{raw}/Labels/label-013022223130.tif",
-				"{raw}/Labels/label-013022223123.tif",
-				"{raw}/Labels/label-013022223130.tif",
-				"{raw}/Labels/label-013022223131.tif",
-				"{raw}/Labels/label-013022223132.tif",
-				"{raw}/Labels/label-013022232020.tif",
-				"{raw}/Labels/label-013022232021.tif",
-				"{raw}/Labels/label-013022232022.tif",
-				"{raw}/Labels/label-013022232023.tif"
+                                "{raw}/Labels/label-013022232023.tif"
                             ]
                         }
                     },
@@ -49,11 +251,41 @@
     ],
     "test_scenes": [
         {
-            "id": "rio-validation",
+            "id": "013022223133",
             "raster_source": {
                 "geotiff_files": {
                     "uris": [
-                        "{raw}/srcData/rasterData/3-Band/013022223133.tif",
+                        "{raw}/srcData/rasterData/3-Band/013022223133.tif"
+                    ]
+                }
+            },
+            "ground_truth_label_store": {
+                "segmentation_raster_file": {
+                    "source": {
+                        "geotiff_files": {
+                            "uris": [
+                                "{raw}/Labels/label-013022223133.tif"
+                            ]
+                        }
+                    },
+                    "raster_class_map": [
+                        {
+                            "source_class": "#0000ff",
+                            "raster_vision_class": 2
+                        },
+                        {
+                            "source_class": "#00ff00",
+                            "raster_vision_class": 1
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "id": "0130222232200",
+            "raster_source": {
+                "geotiff_files": {
+                    "uris": [
                         "{raw}/srcData/rasterData/3-Band/013022232200.tif"
                     ]
                 }
@@ -63,7 +295,6 @@
                     "source": {
                         "geotiff_files": {
                             "uris": [
-                                "{raw}/Labels/label-013022223133.tif",
                                 "{raw}/Labels/label-013022232200.tif"
                             ]
                         }
@@ -103,7 +334,7 @@
             "empty_survival_probability": 0.05,
             "number_of_chips": 1000,
             "debug_chip_probability": 0.033,
-	    "super_window_factor": 1,
+            "super_window_factor": 1,
             "minor_axis_backoff": 0
         }
     },
