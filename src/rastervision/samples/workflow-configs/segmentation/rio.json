@@ -21,11 +21,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -52,11 +52,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -83,11 +83,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -114,11 +114,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -145,11 +145,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -176,11 +176,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -207,11 +207,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -238,11 +238,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -271,11 +271,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -302,11 +302,11 @@
                     "raster_class_map": [
                         {
                             "source_class": "#0000ff",
-                            "raster_vision_class": 2
+                            "raster_vision_class": 1
                         },
                         {
                             "source_class": "#00ff00",
-                            "raster_vision_class": 1
+                            "raster_vision_class": 2
                         }
                     ]
                 }
@@ -318,12 +318,12 @@
         "backend": "TF_DEEPLAB",
         "class_items": [
             {
-                "id": 2,
+                "id": 1,
                 "name": "building",
                 "color": "#0000ff"
             },
             {
-                "id": 1,
+                "id": 2,
                 "name": "~building",
                 "color": "#00ff00"
             }
